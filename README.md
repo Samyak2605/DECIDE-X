@@ -1,3 +1,5 @@
+
+
 # DECIDE-X: Applied Intelligence for High-Stakes Credit Decisions
 
 DECIDE-X is a production-grade Credit Risk Intelligence platform designed for senior decision-makers and ML auditors. It bridges the gap between raw algorithmic output and defensible business intelligence.
@@ -47,8 +49,7 @@ Every scan is recorded in a high-density **Decision Audit Log**, formatted for I
 ---
 
 ## � Demo Video
-> [!NOTE]
-> View the full system in action here: [Intelligence Command Center Demo](file:///Users/macbook/.gemini/antigravity/brain/d33bc128-4a1a-4451-b4f0-864e260f377a/walkthrough.md)
+https://github.com/user-attachments/assets/09069b66-fb26-4fe8-884c-adfa84de9fc6
 
 ---
 
@@ -62,5 +63,3 @@ Every scan is recorded in a high-density **Decision Audit Log**, formatted for I
 - **Adversarial Robustness Testing**: Automated generation of "adversarial borrowers" to test the model's security boundaries.
 - **Online Drift Detection**: Integrated feedback loops to detect concept drift in real-time and trigger automated retraining pipelines.
 
----
-*Developed by the Deepmind Applied AI Team (Antigravity)*
