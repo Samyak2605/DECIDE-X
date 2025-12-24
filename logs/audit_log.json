@@ -1,0 +1,977 @@
+[
+  {
+    "id": "bdf0adb4-6a82-4ef5-8afa-5a2940f4c3c7",
+    "timestamp": "2025-12-23T21:08:48.089443",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "eae559c1-40e4-4645-9913-cd6ef43ca009",
+    "timestamp": "2025-12-23T21:09:48.859074",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1500030000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.6537291407585144,
+      "certainty": 0.3074582815170288
+    }
+  },
+  {
+    "id": "4ec72efb-b693-4bd0-8172-4e94ea8dbd84",
+    "timestamp": "2025-12-23T21:09:55.608874",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 30000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.5358250737190247,
+      "certainty": 0.07165014743804932
+    }
+  },
+  {
+    "id": "febb92b5-c35f-401a-9553-415698aa8ed9",
+    "timestamp": "2025-12-23T21:10:01.805998",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 30000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.5358250737190247,
+      "certainty": 0.07165014743804932
+    }
+  },
+  {
+    "id": "c1d9527b-e446-4c4d-ba7d-03f63db8b579",
+    "timestamp": "2025-12-23T21:12:53.538446",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.25,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.2755064070224762,
+      "certainty": 0.4489871859550476
+    }
+  },
+  {
+    "id": "00dda5cb-d18d-4c09-bf34-c21da351e17c",
+    "timestamp": "2025-12-23T21:22:50.722837",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.08729586750268936,
+      "certainty": 0.8254082649946213
+    }
+  },
+  {
+    "id": "6d0d0499-5909-4a53-934b-c3796c90384a",
+    "timestamp": "2025-12-23T21:24:44.090333",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.08729586750268936,
+      "certainty": 0.8254082649946213
+    }
+  },
+  {
+    "id": "bd5e6fba-01d5-456a-a20d-2d4fb95af4bc",
+    "timestamp": "2025-12-23T21:37:51.038276",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "random_forest",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.5,
+      "certainty": 0.0
+    }
+  },
+  {
+    "id": "dc1cf804-178d-45c3-a844-078dc8ce3cb4",
+    "timestamp": "2025-12-23T21:37:51.408193",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 1.0,
+      "certainty": 1.0
+    }
+  },
+  {
+    "id": "f2d3afc4-706e-418b-90c2-8e4962a119e1",
+    "timestamp": "2025-12-23T21:39:00.971846",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "random_forest",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.5,
+      "certainty": 0.0
+    }
+  },
+  {
+    "id": "afeb7cf9-d824-4aa8-af9e-ae8a4c1de5dc",
+    "timestamp": "2025-12-23T21:39:09.217539",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 35.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 50000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 1.0,
+      "certainty": 1.0
+    }
+  },
+  {
+    "id": "91bd7afe-85b8-4edd-8333-6e4c76ebd779",
+    "timestamp": "2025-12-23T21:42:08.161131",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 85000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 25000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.04619923606514931,
+      "certainty": 0.9076015278697014
+    }
+  },
+  {
+    "id": "6455537e-a1d4-4e8b-8954-9e7c0c143a2d",
+    "timestamp": "2025-12-23T21:42:19.808489",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 85000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 25000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "random_forest",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.15,
+      "certainty": 0.7
+    }
+  },
+  {
+    "id": "cd62796b-1b0a-4dcb-9d04-39a72342c1bf",
+    "timestamp": "2025-12-23T21:42:30.969222",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 85000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 25000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 3.079685216328524e-43,
+      "certainty": 1.0
+    }
+  },
+  {
+    "id": "1690496f-8503-4eab-8ed9-7c06387d14ed",
+    "timestamp": "2025-12-23T22:27:41.173994",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 1.0,
+      "certainty": 1.0
+    }
+  },
+  {
+    "id": "3d8cc798-36ff-43f5-bb37-920f3c961a0b",
+    "timestamp": "2025-12-23T22:27:54.381854",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.2755064070224762,
+      "certainty": 0.4489871859550476
+    }
+  },
+  {
+    "id": "c76c2d8b-d174-4871-9407-d62b8bbabc0f",
+    "timestamp": "2025-12-23T22:29:43.331495",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 205000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "technical"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.2755064070224762,
+      "certainty": 0.4489871859550476
+    }
+  },
+  {
+    "id": "21004553-e1b0-4043-a758-29edf283c4c8",
+    "timestamp": "2025-12-23T22:29:47.898305",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 100000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "technical"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.2755064070224762,
+      "certainty": 0.4489871859550476
+    }
+  },
+  {
+    "id": "459a881a-22e2-4a2a-a65f-5669c4a023aa",
+    "timestamp": "2025-12-23T22:30:26.996098",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 1.0,
+      "certainty": 1.0
+    }
+  },
+  {
+    "id": "bc6d2700-2b08-46a4-8756-919ae11451cc",
+    "timestamp": "2025-12-23T22:39:53.588635",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 3029.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1593897044658661,
+      "certainty": 0.6812205910682678
+    }
+  },
+  {
+    "id": "dd6f08b7-a431-41a7-9c96-4b8b6cf45abc",
+    "timestamp": "2025-12-23T22:52:24.208207",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "random_forest",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.56,
+      "certainty": 0.1200000000000001
+    }
+  },
+  {
+    "id": "16d49580-d8e5-4a18-b761-414c29d8d6d9",
+    "timestamp": "2025-12-24T00:24:30.184691",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "6a71a8b9-bedf-4547-af16-da06eb452ef0",
+    "timestamp": "2025-12-24T13:46:18.845537",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "46b53547-431b-4444-a606-383bc2964367",
+    "timestamp": "2025-12-24T13:46:56.657350",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 85000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.026130786165595055,
+      "certainty": 0.9477384276688099
+    }
+  },
+  {
+    "id": "dac4d268-09ff-47e8-a1f2-72a24daa42b4",
+    "timestamp": "2025-12-24T13:48:40.144624",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "c7cf3372-ce44-4789-97f2-b1ca46eee3d4",
+    "timestamp": "2025-12-24T13:49:58.242286",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "9debe2b3-ce26-44ed-8602-7160b1fe0fcf",
+    "timestamp": "2025-12-24T13:50:22.406000",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "94de9e46-d517-4cbd-85e9-a2a7f40a8a99",
+    "timestamp": "2025-12-24T13:52:07.209338",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "d06464c8-f0d6-4c5a-952c-df213d410c41",
+    "timestamp": "2025-12-24T13:55:20.785039",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 30.0,
+      "person_income": 60000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 15000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.1385658234357834,
+      "certainty": 0.7228683531284332
+    }
+  },
+  {
+    "id": "baec2a75-b385-4881-a9ca-1a2891d95c88",
+    "timestamp": "2025-12-24T14:08:52.545576",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "801e6c5c-8bf1-40b8-ac55-d36a7b100cc3",
+    "timestamp": "2025-12-24T14:09:13.868749",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 19.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "0282e062-106a-47c4-a48c-9c6341649109",
+    "timestamp": "2025-12-24T14:09:21.371799",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 9.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "581dcb70-7aeb-41ef-ba16-ab6818cbf330",
+    "timestamp": "2025-12-24T14:09:39.272591",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 19.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "c6ba549e-c98c-4c75-b58e-25d2ef4071ae",
+    "timestamp": "2025-12-24T14:09:52.193792",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 19.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "f61cde85-bcca-4b61-a2ed-1f56eae526b8",
+    "timestamp": "2025-12-24T14:10:00.322417",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "0bfc929b-faf4-4519-9859-cba1fbc15f59",
+    "timestamp": "2025-12-24T14:10:34.052688",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 28.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  },
+  {
+    "id": "e0d81c40-586b-48a8-9eb6-2c77210922c4",
+    "timestamp": "2025-12-24T14:52:32.562124",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "xgboost",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Approved",
+      "probability": 0.2755064070224762,
+      "certainty": 0.4489871859550476
+    }
+  },
+  {
+    "id": "9d6ed537-706f-4719-9e3d-ff2b6ef51ab6",
+    "timestamp": "2025-12-24T14:53:42.228517",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "random_forest",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.56,
+      "certainty": 0.1200000000000001
+    }
+  },
+  {
+    "id": "d6e7f9d7-3d38-4e96-8bc0-a1011e1a3206",
+    "timestamp": "2025-12-24T14:54:14.988159",
+    "model_version": "v1.3",
+    "input": {
+      "person_age": 20.0,
+      "person_income": 120000.0,
+      "person_home_ownership": "RENT",
+      "person_emp_length": 5.0,
+      "loan_intent": "EDUCATION",
+      "loan_grade": "B",
+      "loan_amnt": 1000000.0,
+      "loan_int_rate": 11.5,
+      "cb_person_default_on_file": "N",
+      "cb_person_cred_hist_length": 5.0,
+      "person_gender": "Male",
+      "model_choice": "mlp_baseline",
+      "tone": "executive"
+    },
+    "output": {
+      "prediction": "Denied",
+      "probability": 0.99,
+      "certainty": 0.98
+    }
+  }
+]
