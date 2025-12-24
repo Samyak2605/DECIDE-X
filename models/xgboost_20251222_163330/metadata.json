@@ -1,0 +1,42 @@
+{
+    "model_name": "xgboost",
+    "timestamp": "20251222_163330",
+    "metrics": {
+        "auc_roc": 0.9287855321975835,
+        "auc_pr": 0.9354038732930416,
+        "report": {
+            "0": {
+                "precision": 0.8548707753479126,
+                "recall": 0.8793456032719836,
+                "f1-score": 0.8669354838709677,
+                "support": 489.0
+            },
+            "1": {
+                "precision": 0.8812877263581489,
+                "recall": 0.8571428571428571,
+                "f1-score": 0.8690476190476191,
+                "support": 511.0
+            },
+            "accuracy": 0.868,
+            "macro avg": {
+                "precision": 0.8680792508530307,
+                "recall": 0.8682442302074204,
+                "f1-score": 0.8679915514592934,
+                "support": 1000.0
+            },
+            "weighted avg": {
+                "precision": 0.8683698373141433,
+                "recall": 0.868,
+                "f1-score": 0.8680147849462366,
+                "support": 1000.0
+            }
+        }
+    },
+    "params": {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "learning_rate": 0.1,
+        "objective": "binary:logistic",
+        "random_state": 42
+    }
+}

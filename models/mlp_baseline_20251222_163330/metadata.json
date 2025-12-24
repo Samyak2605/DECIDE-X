@@ -1,0 +1,41 @@
+{
+    "model_name": "mlp_baseline",
+    "timestamp": "20251222_163330",
+    "metrics": {
+        "auc_roc": 0.66605837225217,
+        "auc_pr": 0.698125241566349,
+        "report": {
+            "0": {
+                "precision": 0.5541069100391134,
+                "recall": 0.869120654396728,
+                "f1-score": 0.6767515923566879,
+                "support": 489.0
+            },
+            "1": {
+                "precision": 0.7253218884120172,
+                "recall": 0.33072407045009783,
+                "f1-score": 0.4543010752688172,
+                "support": 511.0
+            },
+            "accuracy": 0.594,
+            "macro avg": {
+                "precision": 0.6397143992255653,
+                "recall": 0.5999223624234129,
+                "f1-score": 0.5655263338127525,
+                "support": 1000.0
+            },
+            "weighted avg": {
+                "precision": 0.6415977639876672,
+                "recall": 0.594,
+                "f1-score": 0.563079378124786,
+                "support": 1000.0
+            }
+        }
+    },
+    "params": {
+        "hidden_layers": [
+            64,
+            32
+        ]
+    }
+}
