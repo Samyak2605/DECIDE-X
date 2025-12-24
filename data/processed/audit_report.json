@@ -1,0 +1,126 @@
+{
+    "quality_report": {
+        "missing_values": {
+            "person_emp_length": 50
+        },
+        "outliers": {
+            "person_age": 20,
+            "person_income": 7,
+            "loan_amnt": 7,
+            "loan_int_rate": 9,
+            "loan_percent_income": 106
+        },
+        "target_imbalance": {
+            "1": 0.5114,
+            "0": 0.4886
+        }
+    },
+    "summary_stats": {
+        "total_rows": 5000,
+        "numerical_stats": {
+            "person_age": {
+                "count": 5000.0,
+                "mean": 44.9914,
+                "std": 15.118288215526041,
+                "min": 20.0,
+                "25%": 32.0,
+                "50%": 45.0,
+                "75%": 57.0,
+                "max": 120.0
+            },
+            "person_income": {
+                "count": 5000.0,
+                "mean": 50488.41791766292,
+                "std": 19202.68439808788,
+                "min": 15000.0,
+                "25%": 36751.01225125761,
+                "50%": 50323.01094190767,
+                "75%": 63698.98470755636,
+                "max": 123154.0360799815
+            },
+            "person_emp_length": {
+                "count": 4950.0,
+                "mean": 14.906060606060606,
+                "std": 10.164014809426206,
+                "min": 0.0,
+                "25%": 6.0,
+                "50%": 13.0,
+                "75%": 22.0,
+                "max": 39.0
+            },
+            "loan_amnt": {
+                "count": 5000.0,
+                "mean": 10032.231324624252,
+                "std": 4879.388697918055,
+                "min": 500.0,
+                "25%": 6568.858386451497,
+                "50%": 9942.537758649458,
+                "75%": 13360.43252656698,
+                "max": 27093.060896845756
+            },
+            "loan_int_rate": {
+                "count": 5000.0,
+                "mean": 11.005738944348996,
+                "std": 2.912663666498485,
+                "min": 5.0,
+                "25%": 8.964791461968836,
+                "50%": 10.978469430511026,
+                "75%": 13.004478235707644,
+                "max": 23.443685151001528
+            },
+            "loan_status": {
+                "count": 5000.0,
+                "mean": 0.5114,
+                "std": 0.4999200176076179,
+                "min": 0.0,
+                "25%": 0.0,
+                "50%": 1.0,
+                "75%": 1.0,
+                "max": 1.0
+            },
+            "loan_percent_income": {
+                "count": 5000.0,
+                "mean": 0.24115487816835493,
+                "std": 0.1864511673159307,
+                "min": 0.0049043484078258,
+                "25%": 0.12445358526683653,
+                "50%": 0.1981458007536934,
+                "75%": 0.30071463920576474,
+                "max": 1.772527663599545
+            },
+            "cb_person_cred_hist_length": {
+                "count": 5000.0,
+                "mean": 12.9976,
+                "std": 7.589750661452628,
+                "min": 2.0,
+                "25%": 6.0,
+                "50%": 12.0,
+                "75%": 19.0,
+                "max": 29.0
+            }
+        },
+        "categorical_uniques": {
+            "person_home_ownership": 4,
+            "loan_intent": 6,
+            "loan_grade": 7,
+            "cb_person_default_on_file": 2
+        }
+    },
+    "final_features": [
+        "person_age",
+        "person_income",
+        "person_home_ownership",
+        "person_emp_length",
+        "loan_intent",
+        "loan_grade",
+        "loan_amnt",
+        "loan_int_rate",
+        "loan_percent_income",
+        "cb_person_default_on_file",
+        "cb_person_cred_hist_length",
+        "loan_to_income",
+        "stability_index",
+        "person_gender",
+        "loan_status"
+    ]
+}
